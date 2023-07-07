@@ -44,13 +44,47 @@ public struct Account: Codable, Hashable {
     public var emojis: [Emoji] {
         return _emojis ?? []
     }
+    
+    public init(
+        id: String,
+        username: String,
+        acct: String,
+        displayName: String,
+        note: String,
+        url: String,
+        avatar: String,
+        avatarStatic: String,
+        header: String,
+        headerStatic: String,
+        locked: Bool,
+        createdAt: Date,
+        followersCount: Int,
+        followingCount: Int,
+        statusesCount: Int
+    ) {
+        self.id = id
+        self.username = username
+        self.acct = acct
+        self.displayName = displayName
+        self.note = note
+        self.url = url
+        self.avatar = avatar
+        self.avatarStatic = avatarStatic
+        self.header = header
+        self.headerStatic = headerStatic
+        self.locked = locked
+        self.createdAt = createdAt
+        self.followersCount = followersCount
+        self.followingCount = followingCount
+        self.statusesCount = statusesCount
+    }
 
     /// Real storage of emojis.
     ///
     /// According to the [documentation](https://docs.joinmastodon.org/api/entities/#account),
     /// property emoji is added in 2.4.0, and it is non-optional. But for compibility with older version instance, we
     /// use `[Emoji]?` as storage and use `[Emoji]` as public API.
-    private let _emojis: [Emoji]?
+    private var _emojis: [Emoji]?
 
     private enum CodingKeys: String, CodingKey {
         case id
