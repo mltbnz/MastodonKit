@@ -61,6 +61,62 @@ public class Status: Codable, Hashable {
     public let card: Card?
     /// The amount of replies.
     public let repliesCount: Int
+  
+    public init(
+        id: String,
+        uri: String,
+        url: URL?,
+        account: Account,
+        inReplyToID: String?,
+        inReplyToAccountID: String?,
+        content: String,
+        createdAt: Date,
+        emojis: [Emoji],
+        reblogsCount: Int,
+        favouritesCount: Int,
+        reblogged: Bool?,
+        favourited: Bool?,
+        bookmarked: Bool?,
+        sensitive: Bool?,
+        spoilerText: String,
+        visibility: Visibility,
+        mediaAttachments: [Attachment],
+        mentions: [Mention],
+        tags: [Tag],
+        application: Application?,
+        language: String?,
+        reblog: Status?,
+        pinned: Bool?,
+        card: Card?,
+        repliesCount: Int
+    ) {
+        self.id = id
+        self.uri = uri
+        self.url = url
+        self.account = account
+        self.inReplyToID = inReplyToID
+        self.inReplyToAccountID = inReplyToAccountID
+        self.content = content
+        self.createdAt = createdAt
+        self.emojis = emojis
+        self.reblogsCount = reblogsCount
+        self.favouritesCount = favouritesCount
+        self.reblogged = reblogged
+        self.favourited = favourited
+        self.bookmarked = bookmarked
+        self.sensitive = sensitive
+        self.spoilerText = spoilerText
+        self.visibility = visibility
+        self.mediaAttachments = mediaAttachments
+        self.mentions = mentions
+        self.tags = tags
+        self.application = application
+        self.language = language
+        self.reblog = reblog
+        self.pinned = pinned
+        self.card = card
+        self.repliesCount = repliesCount
+    }
 
     private enum CodingKeys: String, CodingKey {
         case id
