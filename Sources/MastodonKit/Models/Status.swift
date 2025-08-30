@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Status: Codable, Hashable {
+public class Status: Codable, Hashable, @unchecked Sendable {
     /// The ID of the status.
     public let id: String
     /// A Fediverse-unique resource ID.
@@ -22,7 +22,7 @@ public class Status: Codable, Hashable {
     /// null or the ID of the account it replies to.
     public let inReplyToAccountID: String?
     /// Body of the status; this will contain HTML (remote HTML already sanitized).
-    public let content: String
+    public let content: HTMLString
     /// The time the status was created.
     public let createdAt: Date
     /// An array of Emoji.
@@ -69,7 +69,7 @@ public class Status: Codable, Hashable {
         account: Account,
         inReplyToID: String?,
         inReplyToAccountID: String?,
-        content: String,
+        content: HTMLString,
         createdAt: Date,
         emojis: [Emoji],
         reblogsCount: Int,
