@@ -1,0 +1,117 @@
+{
+    "id": "115113707763342262",
+    "created_at": "2025-08-29T19:29:41.000Z",
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "de",
+    "uri": "https://troet.cafe/users/HerrKlamauk/statuses/115113707537235191",
+    "url": "https://troet.cafe/@HerrKlamauk/115113707537235191",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "edited_at": null,
+    "content": "<p>Vielen Dank an alle, die heute bei der Critical Mass Hannover mitfuhren! Es war schön, so viele neue Gesichter und schicke Fahrräder zu sehen. 🚲</p><p>Heute war besonders für mich, weil ich erstmals vorausfuhr. Besonderen Dank daher an <span class=\"h-card\" translate=\"no\"><a href=\"https://troet.cafe/@IngaDeg\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>IngaDeg</span></a></span> für die Unterstützung im Vorfeld und an <span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@HenrikOhneD\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>HenrikOhneD</span></a></span> für die Hilfe während der Tour. Es hat mir großen Spaß gemacht!</p><p><a href=\"https://troet.cafe/tags/CriticalMass\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CriticalMass</span></a> <a href=\"https://troet.cafe/tags/CM\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CM</span></a> <a href=\"https://troet.cafe/tags/CMH\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CMH</span></a> <a href=\"https://troet.cafe/tags/Hannover\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Hannover</span></a> <a href=\"https://troet.cafe/tags/Fahrrad\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Fahrrad</span></a> <a href=\"https://troet.cafe/tags/Radfahren\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Radfahren</span></a> <a href=\"https://troet.cafe/tags/Verkehr\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Verkehr</span></a> <a href=\"https://troet.cafe/tags/Verkehrswende\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Verkehrswende</span></a> <a href=\"https://troet.cafe/tags/Mobilit%C3%A4t\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Mobilität</span></a> <a href=\"https://troet.cafe/tags/Mobilit%C3%A4tswende\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Mobilitätswende</span></a></p>",
+    "reblog": null,
+    "account": {
+      "id": "108218631425003250",
+      "username": "HerrKlamauk",
+      "acct": "HerrKlamauk@troet.cafe",
+      "display_name": "Herr Klamauk",
+      "locked": false,
+      "bot": false,
+      "discoverable": true,
+      "indexable": false,
+      "group": false,
+      "created_at": "2022-04-29T00:00:00.000Z",
+      "note": "<p>Kunst &amp; Mobilität | <a href=\"https://troet.cafe/tags/Hannover\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Hannover</span></a></p>",
+      "url": "https://troet.cafe/@HerrKlamauk",
+      "uri": "https://troet.cafe/users/HerrKlamauk",
+      "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/218/631/425/003/250/original/6f9ab49a125cad98.png",
+      "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/108/218/631/425/003/250/original/6f9ab49a125cad98.png",
+      "header": "https://files.mastodon.social/cache/accounts/headers/108/218/631/425/003/250/original/99c7ecfdefd7e14f.jpg",
+      "header_static": "https://files.mastodon.social/cache/accounts/headers/108/218/631/425/003/250/original/99c7ecfdefd7e14f.jpg",
+      "followers_count": 825,
+      "following_count": 121,
+      "statuses_count": 2117,
+      "last_status_at": "2025-08-29",
+      "hide_collections": false,
+      "emojis": [],
+      "fields": [
+        {
+          "name": "Twitch",
+          "value": "<a href=\"https://twitch.tv/herrklamauk\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitch.tv/herrklamauk</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "Discord",
+          "value": "<a href=\"https://discord.gg/sJUCB4snmC\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">discord.gg/sJUCB4snmC</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "YouTube",
+          "value": "<a href=\"https://www.youtube.com/c/herrklamauk\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/c/herrklamauk</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        }
+      ]
+    },
+    "media_attachments": [],
+    "mentions": [
+      {
+        "id": "109329754982324960",
+        "username": "IngaDeg",
+        "url": "https://troet.cafe/@IngaDeg",
+        "acct": "IngaDeg@troet.cafe"
+      },
+      {
+        "id": "108130370291012211",
+        "username": "HenrikOhneD",
+        "url": "https://mastodon.social/@HenrikOhneD",
+        "acct": "HenrikOhneD"
+      }
+    ],
+    "tags": [
+      {
+        "name": "criticalmass",
+        "url": "https://mastodon.social/tags/criticalmass"
+      },
+      {
+        "name": "cm",
+        "url": "https://mastodon.social/tags/cm"
+      },
+      {
+        "name": "cmh",
+        "url": "https://mastodon.social/tags/cmh"
+      },
+      {
+        "name": "hannover",
+        "url": "https://mastodon.social/tags/hannover"
+      },
+      {
+        "name": "fahrrad",
+        "url": "https://mastodon.social/tags/fahrrad"
+      },
+      {
+        "name": "radfahren",
+        "url": "https://mastodon.social/tags/radfahren"
+      },
+      {
+        "name": "verkehr",
+        "url": "https://mastodon.social/tags/verkehr"
+      },
+      {
+        "name": "verkehrswende",
+        "url": "https://mastodon.social/tags/verkehrswende"
+      },
+      {
+        "name": "mobilitat",
+        "url": "https://mastodon.social/tags/mobilitat"
+      }
+    ],
+    "emojis": [],
+    "quote": null,
+    "card": null,
+    "poll": null
+  }

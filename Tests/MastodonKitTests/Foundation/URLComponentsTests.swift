@@ -19,7 +19,10 @@ class URLComponentsTests: XCTestCase {
 
     func testURLComponentsWithInvalidBaseURL() {
         let request = Request<String>(path: "/string")
-        let components = URLComponents(baseURL: "this is an invalid base url", request: request)
+      let components = URLComponents(
+        baseURL: "this is an invalid base url",
+        request: request
+      )
 
         XCTAssertNil(components)
     }

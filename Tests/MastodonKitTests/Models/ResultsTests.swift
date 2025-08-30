@@ -10,13 +10,13 @@ import XCTest
 @testable import MastodonKit
 
 class ResultsTests: XCTestCase {
-    func testResultsFromValidJSON() {
+    func testResultsFromValidJSON() throws {
         let fixture = try! Fixture.load(fileName: "Fixtures/Results.json")
-        let results = try? Results.decode(data: fixture)
+        let results = try XCTUnwrap(Results.decode(data: fixture))
 
-        XCTAssertEqual(results?.accounts.count, 1)
-        XCTAssertEqual(results?.statuses.count, 1)
-        XCTAssertEqual((results?.hashtags)!, ["one", "two", "three"])
+        XCTAssertEqual(results.accounts.count, 1)
+        XCTAssertEqual(results.statuses.count, 1)
+        XCTAssertEqual((results.hashtags), ["one", "two", "three"])
     }
 
     func testResultsWithInvalidData() {
