@@ -1,12 +1,4 @@
-// swift-tools-version:4.0
-
-//
-//  Package.swift
-//  MastodonKit
-//
-//  Created by Ornithologist Coder on 4/9/17.
-//  Copyright © 2017 MastodonKit. All rights reserved.
-//
+// swift-tools-version:5.8
 
 import PackageDescription
 
@@ -14,12 +6,25 @@ import PackageDescription
 
 let package = Package(
     name: "MastodonKit",
+    platforms: [
+      .iOS(.v16), .macOS(.v13), .tvOS(.v16), .watchOS(.v9)
+    ],
     products: [
         .library(name: "MastodonKit", targets: ["MastodonKit"])
     ],
-    dependencies: [],
+    dependencies: [
+      .package(
+        url: "https://github.com/scinfu/SwiftSoup.git",
+        from: "2.8.8"
+      ),
+    ],
     targets: [
-        .target(name: "MastodonKit", dependencies: []),
+      .target(
+        name: "MastodonKit",
+        dependencies: [
+          .product(name: "SwiftSoup", package: "SwiftSoup")
+        ]
+      ),
         .testTarget(name: "MastodonKitTests", dependencies: ["MastodonKit"])
     ]
 )
